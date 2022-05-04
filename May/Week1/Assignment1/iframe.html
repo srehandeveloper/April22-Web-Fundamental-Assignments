@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IFRAME</title>
+<style>
+    #menu div {
+        background-color: red;
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+
+    }
+    .container {
+        display: flex;
+    }
+    #menu {
+        flex: 1px;
+        padding: 5px;
+        border-radius: 2px solid black;
+    }
+    #iframe {
+
+        flex: 4;
+    }
+    iframe {
+        padding: 5px;
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="menu">
+        <div>
+            <a href="htmlHome.html" target="rightPanel">HTML</a>
+        </div>
+        <div>
+            <a href="CssHome.html" target="rightPanel">CSS</a>
+        </div>
+        <div>
+            <a href="">JAVA SCRIPT</a>
+        </div>
+        <div>
+            <a href="">REACT</a>
+        </div>
+        <div>
+            <a href="">NODE JS</a>
+        </div>
+        <div>
+            <a href="">REACT JS</a>
+        </div>
+
+        <div id="iframe">
+            <iframe name="rightPanel"></iframe>
+        </div>
+
+    </div>
+</body>
+
+</html>
